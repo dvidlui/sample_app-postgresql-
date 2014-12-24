@@ -9,4 +9,9 @@ module ApplicationHelper
       "#{page_title} | #{base_title}"
     end  
   end
+
+  # Returns "GeoIP.dat" file path
+  def geoip_path
+    "#{Rails.root}/db/res/GeoIP.dat"
+  end
 end
